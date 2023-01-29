@@ -3,15 +3,11 @@ package main
 import "fmt"
 
 func testingHello() {
-	greet := "hello world"
-	fmt.Println(greet)
-	a := 4
-	b := 5
-	fmt.Println(a + b)
-	array := [3]int{1, 2, 3}
-	for i := 0; i < 3; i++ {
-		fmt.Println(array[i])
-	}
+	const book = "Harry Potter";
+	var num =  "2";
+	labarda := "lalalala";
+
+	fmt.Println(book, num, labarda);
 }
 
 func main() {
